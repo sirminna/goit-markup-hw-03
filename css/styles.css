@@ -1,0 +1,219 @@
+/* цвет основного текста #000000 */
+/* вторичный цвет текста  rgba(0, 0, 0, 0.8);
+ */
+/* белый #FFFFFF  */
+/* акцент #18A0FB */
+/* вторичный цвет фона #F5F5F5; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bgr-color: #ffffff;
+  --white-text: #ffffff;
+  --footer-background: #2f303a;
+}
+
+body {
+  background-color: var(--primary-bgr-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+.nav-flex {
+  display: flex;
+  align-items: center;
+}
+
+/*logo*/
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1.29;
+  font-weight: 700;
+  text-decoration: none;
+}
+.logo-in {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/*site-nav*/
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.auth-nav:hover,
+.auth-nav:focus {
+  color: var(--accent-color);
+}
+/*hero*/
+.hero {
+  background-color: var(--footer-background);
+}
+.hero-title {
+  color: var(--white-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+.hero-button:focus,
+.hero-button:hover {
+  color: var(--white-text);
+}
+/*preferens*/
+.preferens-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*buttons-filtr*/
+.filtr-button {
+  font-family: Roboto, sans-serif;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+}
+.filtr-button:hover,
+.filtr-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text);
+}
+/*section*/
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.our-team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.our-team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.project-card-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+.project-card-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/*logo-footer*/
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: var(--white-text);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+.footer-addres {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+.footer-addres-post {
+  color: var(--white-text);
+  line-height: 1.71;
+}
+
+.footer-addres:hover,
+.footer-addres:focus {
+  color: var(--accent-color);
+}
