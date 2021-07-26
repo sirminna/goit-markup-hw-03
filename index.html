@@ -6,66 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Верхушка сайта-->
     <header class="header">
-        <div class="container">
-        <nav>
-            <a href="./index.html" class="logo">
-                <span class="logo-in">Web</span>Studio
-            </a>
+        <nav class=" container nav-flex">
+            <div class="logo-main">
+                <a class="logo" href="./index.html">
+                    <span class="logo-in">Web</span>Studio
+                </a>
+            </div>
 
-            <ul class="site-nav list">
-                <li><a href="./index.html" class="site-nav link current">Студия</a></li>
-                <li><a href="./portfolio.html" class="site-nav link">Портфолио</a></li>
-                <li><a href="" class="site-nav link">Контакты</a></li>
+            <ul class="site-nav">
+                <li class="item"><a href="./index.html" class="site-nav link current">Студия</a></li>
+                <li class="item"><a href="./portfolio.html" class="site-nav link">Портфолио</a></li>
+                <li class="item"><a href="" class="site-nav link">Контакты</a></li>
+            </ul>
+            <ul class="contacts">
+                <li class="item">
+                    <a href="mailto:info@devstudio.com" class="auth-nav link">info@devstudio.com</a>
+                </li>
+                <li class="item">
+                    <a href="tel:+380961111111" class="auth-nav link">+38 096 111 11 11</a>
+                </li>
             </ul>
         </nav>
-        <ul class="list">
-            <li>
-        <a href="mailto:info@devstudio.com" class="auth-nav link">info@devstudio.com</a>
-            </li>
-            <li>
-        <a href="tel:+380961111111" class="auth-nav link">+38 096 111 11 11</a>
-            </li>
-        </ul>
-        </div>
     </header>
     <main>
         <section class="container hero">
-        <!--Hero-->
+            <!--Hero-->
             <h1 class="hero-title">Эффективные решения <br />
                 для вашего бизнеса</h1>
             <button type="button" class="hero-button">Заказать услугу</button>
         </section>
         <!--Преимущества-->
-        <section class="container">
+        <section class="section container">
             <ul class="preferens list">
-                <li>
+                <li class="item">
                     <h3 class="preferens-title">Внимание к деталям</h3>
                     <p class="preferens-text">
                         Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="preferens-title">Пунктуальность</h3>
                     <p class="preferens-text">
                         Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                     </p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="preferens-title">Планирование</h3>
                     <p class="preferens-text">
                         Равным образом консультация с широким активом в значительной степени обуславливает.
                     </p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="preferens-title">Современные технологии</h3>
                     <p class="preferens-text">
                         Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -75,51 +77,52 @@
 
             </ul>
         </section>
-        <section class="container section">
+        <section class="container section our-works">
             <h2 class="section-title">Чем мы занимаемся</h2>
-              <ul class="our-works list">
-                <li>
-                    <a href="" class="our-work link"><img src="./images/imgone.jpg" alt="Экран ноутбука с кодом" width="370"
-                            height="294" /></a>
+            <ul class="our-work list">
+                <li class="item">
+                    <a href="" class="our-work link"><img src="./images/imgone.jpg" alt="Экран ноутбука с кодом"
+                            width="370" height="294" /></a>
                 </li>
-                <li>
-                    <a href="" class="our-work link"><img src="./images/imgtwo.jpg" alt="Макеты экрана телефлна" width="370"
-                            height="294" /></a>
+                <li class="item">
+                    <a href="" class="our-work link"><img src="./images/imgtwo.jpg" alt="Макеты экрана телефлна"
+                            width="370" height="294" /></a>
                 </li>
-                <li>
-                    <a href="" class="our-work link"><img src="./images/imgthree.jpg" alt="Дизайнер выбирает цвет оформления" width="370"
-                            height="294" /></a>
+                <li class="item">
+                    <a href="" class="our-work link"><img src="./images/imgthree.jpg"
+                            alt="Дизайнер выбирает цвет оформления" width="370" height="294" /></a>
                 </li>
             </ul>
         </section>
-        <section class="container section-team">
+        <section class="container section section-team">
             <h2 class="section-title">Наша команда</h2>
             <ul class="our-team list">
-                <li><img src="./images/iror.jpg" alt="Фото Игоря Демьяннова" width="270" height="260" />
+                <li class="item"><img src="./images/iror.jpg" alt="Фото Игоря Демьяннова" width="270" height="260" />
                     <h3 class="our-team-title">Игорь Демьяненко</h3>
                     <p class="our-team-text">
                         Product Designer
                     </p>
                 </li>
-                <li><img src="./images/olga.jpg" alt="Фото Ольги Репиной" width="270" height="260" />
-                <h3 class="our-team-title">Ольга Репина</h3>
-                <p class="our-team-text">
-                    Frontend Developer
-                </p>
+                <li class="item"><img src="./images/olga.jpg" alt="Фото Ольги Репиной" width="270" height="260" />
+                    <h3 class="our-team-title">Ольга Репина</h3>
+                    <p class="our-team-text">
+                        Frontend Developer
+                    </p>
                 </li>
-                <li><img src="./images/nikol.jpg" alt="Фото Николая Тарасова" width="270" height="260" />
+                <li class="item"><img src="./images/nikol.jpg" alt="Фото Николая Тарасова" width="270" height="260" />
                     <h3 class="our-team-title">Николай Тарасов</h3>
                     <p class="our-team-text">
                         Marketing
                     </p>
                 </li>
-                <li><img src="./images/michael.jpg" alt="Фото Михаила Ермакова" width="270" height="260" />
+                <li class="item"><img src="./images/michael.jpg" alt="Фото Михаила Ермакова" width="270" height="260" />
                     <h3 class="our-team-title">Михаил Ермаков</h3>
                     <p class="our-team-text">
                         UI Designer
                     </p>
                 </li>
-            </ul>        </section>
+            </ul>
+        </section>
     </main>
     <!--Футер-->
     <footer class="footer container">
@@ -141,4 +144,5 @@
         </address>
     </footer>
 </body>
+
 </html>
