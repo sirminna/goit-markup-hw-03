@@ -17,8 +17,8 @@
 <body>
     <!--Верхушка сайта-->
     <header class="header">
-        <div class="container  nav-main" 
-        <nav>
+        <div class="container"> 
+        <nav class="nav-main">
             <div class="logo-main">
              <a class="logo" href="./index.html">
                     <span class="logo-in">Web</span>Studio
@@ -43,9 +43,9 @@
     </header>
     <main>
         <section class="section">
-            <!--h1>Portfolio-->
             <div class="container">
-            <ul class="filtrs list">
+            <!--h1 Portfolio-->
+                <ul class="filtrs list">
                 <li class="item"><button type="button" class="filtr-button">Все</button></li>
                 <li class="item"><button type="button" class="filtr-button">Веб-сайты</button></li>
                 <li class="item"><button type="button" class="filtr-button">Приложения</button></li>
@@ -91,7 +91,6 @@
                     <div class="card-thumb">
                     <a href="" class="project-card link"><img src="./images/img4.jpg" alt="Наушники" width="370"
                             height="294">
-                            <div class="card-content">
                         <div class="card-content">  
                         <h2 class="project-card-title">Проект Prime</h2>
                         <p class="project-card-text">Маркетинг</p>
@@ -107,7 +106,9 @@
                             <div class="card-content">
                         <h2 class="project-card-title">Проект Boxes</h2>
                         <p class="project-card-text">Приложение</p>
+                    </div>    
                     </a>
+                </div>
                 </li>
                 <li class="item">
                     <div class="card-thumb">
@@ -155,10 +156,12 @@
                 </li>
             </ul>
             </div>
+            </div>
         </section>
     </main>
     <!--Футер-->
-    <footer class="footer container">
+    <footer class="footer">
+    <div class="container">
         <a href="./index.html" class="logo-footer">
             <span class="logo-in">Web</span>Studio
         </a>
@@ -167,14 +170,15 @@
                 <li class="footer-addres-post">
                     г. Киев, пр-т Леси Украинки, 26. <br />
                 </li>
-                <li>
+                <li class="item">
                     <a href="mailto:info@example.com" class="footer-addres link">info@example.com</a> <br />
                 </li>
-                <li>
+                <li class="item">
                     <a href="tel:+380991111111" class="footer-addres link">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 

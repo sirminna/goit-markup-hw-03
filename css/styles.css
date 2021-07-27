@@ -29,7 +29,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 ul {
   list-style: none;
@@ -59,7 +58,6 @@ img {
   display: flex;
   align-items: center;
 }
-
 /*logo*/
 .logo {
   color: var(--title-text-color);
@@ -158,7 +156,6 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 2px solid tomato;
 }
 /*preferens*/
 .preferens {
@@ -204,9 +201,7 @@ img {
 .filtrs .item:not(:last-child) {
   margin-right: 8px;
 }
-.section .our-works {
-  padding-top: -94px;
-}
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -251,8 +246,9 @@ img {
   background-color: #f5f4fa;
 }
 /*our project*/
+
 .card-set {
-  padding-top: 56px;
+  padding-top: 50px;
 }
 .project-cards {
   padding: 0;
@@ -273,7 +269,7 @@ img {
   padding-bottom: 20px;
 }
 .card-thumb {
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .project-card-text {
   color: var(--primary-text-color);
