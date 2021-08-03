@@ -58,6 +58,11 @@ img {
   display: flex;
   align-items: center;
 }
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
 /*logo*/
 .logo {
   color: var(--title-text-color);
@@ -67,6 +72,7 @@ img {
   line-height: 1.29;
   font-weight: 700;
   text-decoration: none;
+  margin-right: 94px;
 }
 .logo-in {
   color: var(--accent-color);
@@ -74,9 +80,6 @@ img {
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
-}
-.logo-main {
-  margin-right: 94px;
 }
 
 /*site-nav*/
@@ -121,6 +124,22 @@ img {
 /*hero*/
 .hero {
   background-color: var(--footer-background);
+  padding: 200px 0px 200px;
+}
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/heroimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .hero-title {
   color: var(--white-text);
@@ -130,6 +149,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .hero-button {
   background-color: var(--accent-color);
@@ -162,7 +182,7 @@ img {
   display: flex;
 }
 .preferens .item:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 30px;
 }
 
 .preferens-title {
@@ -170,12 +190,22 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.preferens-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  width: 270px;
 }
 
 /*buttons-filtr*/
 .filtrs {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .filtr-button {
   font-family: Roboto, sans-serif;
@@ -210,6 +240,9 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
+.our-works {
+  padding-top: 0;
+}
 .our-work {
   display: flex;
 }
@@ -228,6 +261,7 @@ img {
 .team-content {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--primary-bgr-color);
 }
 .our-team-title {
   color: var(--title-text-color);
@@ -247,12 +281,9 @@ img {
 }
 /*our project*/
 
-.card-set {
-  padding-top: 50px;
-}
 .project-cards {
   padding: 0;
-  margin-top: 0px;
+  margin-top: 0;
 
   display: flex;
   flex-wrap: wrap;
